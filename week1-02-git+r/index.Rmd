@@ -466,6 +466,6 @@ knitr::include_graphics("img/md-cheatsheet.png")
 
 .your-turn[
 .light-blue[.hand[Your turn:]] `Cumulative deaths from COVID-19`
-- Clone (download) [https://github.com/uiuc-ischool-20231-jseo1005-1/rmarkdown_practice](https://github.com/uiuc-ischool-20231-jseo1005-1/rmarkdown_practice)
+- Clone (download) [https://github.com/uiuc-ischool-20241-jseo1005-1/rmarkdown_practice](https://github.com/uiuc-ischool-20241-jseo1005-1/rmarkdown_practice)
 - Open and knit the R Markdown document `covid.Rmd`.
 ]

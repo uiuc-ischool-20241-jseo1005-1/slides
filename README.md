@@ -4,6 +4,9 @@
 
 - [week1-01-welcome](week1-01-welcome).
 
+<!-- 
+
+
 - [week2-01-data-viz](week2-01-data-viz).
 
 - [week2-02-viz-num-cat](week2-02-viz-num-cat).
@@ -43,9 +46,6 @@
 - [week15-03-text-analysis_tfidf+sentimentanal](week15-03-text-analysis_tfidf+sentimentanal)
 
 - [week16-01-shiny-practice](week16-01-shiny-practice)
-
-<!-- 
-
 
 - [week13-02-named_entity_recognition](week13-02-named_entity_recognition). -->
 
