@@ -4,6 +4,8 @@
 
 - [week1-01-welcome](week1-01-welcome).
 
+- [week2-01-data-viz](week2-01-data-viz).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
