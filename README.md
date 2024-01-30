@@ -5,8 +5,10 @@
 - [week1-01-welcome](week1-01-welcome).
 
 - [week2-01-data-viz](week2-01-data-viz).
-- 
+
 - [week2-02-viz-num-cat](week2-02-viz-num-cat).
+
+- [week3-01-tidy+wrangle](week3-01-tidy+wrangle).
 
 ## Dev Toolkit Notes
 
