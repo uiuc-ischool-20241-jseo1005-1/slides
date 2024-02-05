@@ -10,6 +10,8 @@
 
 - [week3-01-tidy+wrangle](week3-01-tidy+wrangle).
 
+- [week4-01-df-join](week4-01-df-join).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
