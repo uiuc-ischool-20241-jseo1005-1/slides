@@ -10,7 +10,10 @@
 
 - [week3-01-tidy+wrangle](week3-01-tidy+wrangle).
 
+
 - [week4-01-df-join](week4-01-df-join).
+
+- [week4-02-tidying](week4-02-tidying).
 
 ## Dev Toolkit Notes
 
