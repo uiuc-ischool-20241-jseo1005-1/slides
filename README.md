@@ -16,6 +16,8 @@
 
 - [week5-01-data-type+class](week5-01-data-type+class).
 
+- [week5-02-data-import+recode](week5-02-data-import+recode).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
