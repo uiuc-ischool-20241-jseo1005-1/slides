@@ -18,6 +18,10 @@
 
 - [week5-02-data-import+recode](week5-02-data-import+recode).
 
+- [week6-01-web-scrape](week6-01-web-scrape).
+
+- [week6-02-d19-top-250-imdb](week6-02-d19-top-250-imdb).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
