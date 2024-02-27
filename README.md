@@ -22,6 +22,8 @@
 
 - [week6-02-d19-top-250-imdb](week6-02-d19-top-250-imdb).
 
+- [week7-01-functions+iteration](week7-01-functions+iteration).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
