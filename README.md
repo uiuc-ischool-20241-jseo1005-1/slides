@@ -24,6 +24,9 @@
 
 - [week7-01-functions+iteration](week7-01-functions+iteration).
 
+- [week9-01-studies-confounding](week9-01-studies-confounding).
+
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
