@@ -26,6 +26,7 @@
 
 - [week9-01-studies-confounding](week9-01-studies-confounding).
 
+- [week9-02-effective-dataviz](week9-02-effective-dataviz).
 
 ## Dev Toolkit Notes
 
