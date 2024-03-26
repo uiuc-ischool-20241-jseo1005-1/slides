@@ -28,6 +28,8 @@
 
 - [week9-02-effective-dataviz](week9-02-effective-dataviz).
 
+- [week10-01-language-of-models](week10-01-language-of-models).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
