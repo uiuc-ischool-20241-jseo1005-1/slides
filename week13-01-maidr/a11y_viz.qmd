@@ -1,0 +1,349 @@
+---
+title: "Unseen Insights:"
+subtitle: "Empowering Autonomous Data Science and Visualization by, with, and for Blind People"
+institute: "School of Information Sciences</br>University of Illinois at Urbana-Champaign"
+author: "JooYoung Seo, Ph.D."
+format:
+  revealjs:
+    theme: dark
+    slide-tone: true
+    logo: "images/INFOR_OrangeI_RGB.png"
+---
+
+# About Me
+
+* Intercultural
+
+* Intervisual
+
+* Interdisciplinary
+
+# About Me
+
+* Information and learning scientist
+
+* Director: (x)Ability Design Lab
+
+# (x)Ability Design?
+
+* (x) == experience variable:
+
+    - (use)ability: UX
+
+    - (learn)ability: LX
+
+    - (access)ability: AX
+
+* (use + learn)ability = UX + LX + AX
+
+∴ Accessibility == ~~(dis)~~**Ability**
+
+# Ongoing Projects
+
+* Accessible maker education (coding and electronics): [IMLS \#LG-252360-OLS-22](https://www.imls.gov/grants/awarded/lg-252360-ols-22), PI
+
+* Accessible and reproducible data visualization: [IMLS early career \#RE-254891-OLS-23](https://www.imls.gov/grants/awarded/re-254891-ols-23), PI
+
+* Accessible high-performance computing: [NSF \#2005572](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2005572), Senior personnel
+
+* Data science education for BLV professionals: NIDILRR \#90REGE0018-01-00, Subaward PI
+
+* Personalized and conversational health agent: UIUC internal CHAD grant, Co-PI
+
+
+# **A Picture is Worth a Thousand Words!**
+
+::: {.notes}
+
+There's a familiar saying, 'A picture is worth a thousand words.' This speaks to the power of visual imagery in conveying complex information succinctly.
+But what if those 'thousand words' remain unheard or unseen by some? Today, we explore this question and its profound implications.
+
+:::
+
+# Knowledge is Power
+
+![DIKW model](images/dikw_model.png){width="40%" height="40%"}
+
+::: {.notes}
+
+We often say 'knowledge is power.' But knowledge that isn't accessible to all is a power that's unfairly distributed. [mention data-information-knowledge-wisdom]
+I think this is largely because data, which is the foundation of knowledge, is represented in ways that exclude some of us. We need to rethink how we represent
+data to make it more inclusive.
+
+:::
+
+# We are All Data Scientists
+
+* Data is everywhere
+
+* Data is for everyone
+
+* Decision making is everyone’s job
+
+::: {.notes}
+
+In today's world, data is everywhere, and its interpretation should not be limited to a select few. Every individual, regardless of their sensory abilities,
+should have the opportunity to engage with and make sense of data.
+
+:::
+
+# How Is Data Represented?
+
+![visual data representation](images/data_viz.jpg){width="40%" height="40%"}
+
+::: {.notes}
+However, how is data represented? Yes, mostly visually. Visual only. How we represent data is crucial. It dictates who can engage with it and who is excluded.
+We need to rethink and redesign our data representation methods to be more inclusive.
+
+:::
+
+# Information Gap
+
+* Only 14% of top Google search results visualizations is accessible (Fan et al., 2023).
+
+::: {.notes}
+There exists a significant information gap. Studies show that a majority of visual data representations are not accessible to all. Fan and colleagues in
+their 2023 study reported that only 14% of top Google search results visualizations is accessible. This is not just a gap; it's a chasm that we need to
+bridge. 
+
+:::
+
+# Information Gap
+
+* Among 144 visualization practitioners (Joyner et al., 2022):
+
+    - 38%: "My" visualizations are typically not accessible.
+
+    - 23%: "I do not know how accessible my visualizations are."
+
+::: {.notes}
+Another study conducted by Joyner and colleagues in 2022 suggests that, among 144 visualization practitioners, 38% said: “My” visualizations are typically
+not accessible. 23%: “I do not know how accessible my visualizations are.”
+
+:::
+
+# What if…
+
+* Making Data:
+
+    - Visible?
+    - Audible?
+    - Talkable?
+    - Touchable?
+
+::: {.notes}
+What if we could make data visible, audible, talkable, and touchable? What if we could transform the way we interact with data to make it a truly inclusive
+experience?
+
+:::
+
+# MAIDR
+
+![maidr logo](images/maidr_logo.svg){width="40%" height="40%"}
+
+# MAIDR
+
+* iSchool (x)Ability Design Lab with:
+    - NCSA + Posit + DCN + NFB + C2M
+    - Funding: Wallace Foundation  Teach Access + IMLS
+    - Until July 2026
+
+
+::: {.notes}
+MAIDR, or Multimodal Access and Interactive Data Representation, is a project I'm leading at the iSchool Accessible Computing Lab to proactively address
+this issue. In collaboration with NCSA, Posit, DCN, NFB, C2M, and supported by the Wallace Foundation and Teach Access, we're reimagining inclusive data
+representation until July 2026 and beyond.
+
+:::
+
+# Design Process
+
+* Interdependent co-design within mixed-ability team (since June 2022)
+
+* Usability studies: 11 blind participants (Jan-May 2023)
+
+    -> CHI24 (Seo et al., forthcoming): [https://bit.ly/maidr-use](https://bit.ly/maidr-use)
+
+* Learnability studies: 9 blind participants (Aug 2023)
+
+    -> EuroVis24 (Seo et al., under-review): [https://bit.ly/maidr-learn](https://bit.ly/maidr-learn)
+
+# Verbal vs. Non-Verbal Channel
+
+![verbal vs. non-verbal channels in brain](images/channels.png){width="60%" height="100%"}
+
+::: footer
+
+Theoretical Background
+
+:::
+
+# BTS+R Modalities
+
+::: {#table:btsr}
+                           Verbal Channel                                                      Non-Verbal Channel
+  ------------------------ ------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+  Tactile Representation   R+: Review (literary braille for data values and labels)            B\*: braille (haptic dot patterns representing graphical shapes and trends)
+  Sound Representation     T\*: Text (spoken data values and labels via speech synthesizers)   S\*: Sonification (non-speech, spatial sounds for illustrating data patterns, shapes, and trends)
+
+  : \* are primary; + is auxiliary.
+:::
+
+# System Implementation
+
+![maidr system diagram](images/maidr_system.png){width="40%" height="40%"}
+
+::: {.notes}
+
+The MAIDR is a cross-platform JavaScript library designed to offer a versatile range of multimodal and interactive controls for data representation in modern
+web browsers. This system design diagram illustrates the architecture and user interaction flow of the MAIDR system. It starts with "Creators," who populate 
+  a JSON Schema and generate an HTML file. Both these inputs feed into the "MAIDR Engine," which consists of three components: Data Parser, Representation 
+  Engine, and Feedback Module. The MAIDR Engine outputs to a "Web Browser" where "Users" interact with the system. Users can switch between two types of 
+  modalities: BTS (Braille, text, and sonification), which are primary, and R (review), which is auxiliary.
+
+:::
+
+# Creation
+
+![maidr creation flow chart.](images/creation_process.png){width="100%" height="100%"}
+
+::: {.notes}
+
+The image is a flowchart that illustrates the process of converting data into an accessible visualization with MAIDR. It starts with 'Data' on the left, which goes into 'SVG Creation' through tools like 'ggplot2, matplotlib, vega-lite, etc.', resulting in an 'SVG' file. Below this process, a note indicates that 'JSON' requires creators to 'Manually Edit'. This JSON then feeds into 'MAIDR' data parser and engine core, which auto-generates 'HTML'. Finally, the HTML is represented as being rendered and ready to 'Open in Browser', symbolized by a web browser icon. The flow is from left to right, with arrows indicating the direction of the process.
+
+:::
+
+# JSON Schema {background-color="black" background-image="images/maidr_json_schema.png"}
+
+::: {.notes}
+Maidr json schema is visual agnostic, and it allows creators to define metadata for multimodal plots. This includes specifying attributes such as plot type,
+axes, labels, levels, and data values. Once the maidr engine process this json schema, the metadata is encoded into visual, audible, and touchable multimodal
+format. Here is the output. The maidr format is inclusive of multimodal senses and synchronizes the cursor position between different mode. Users can navigate
+each data point by using arrow keys, and they can see, hear, and feel verbally and non-verbally. We have other examples, including stacked bar plot, box
+plot, line plot, heat map, and scatter plot.
+
+:::
+
+# MAIDR Demo
+
+{{< video https://youtu.be/NR2G4lNolf4 >}}oa
+
+# Usability Study
+
+---
+
+## Participants
+
+
+::: {#tab:participant}
+  PID    Braille Device Name         Gender       Age   Education     Major                                 Self-Reported Visualization Knowledge                                        Screen Reader
+  ------ --------------------------- ------------ ----- ------------- ------------------------------------- --------------------------------------- ---------- ---------- -------------- ---------------
+  7-10                                                                                                      Bar plot                                Heat map   Box plot   Scatter plot
+  P01    Mantis Q40                  Non-Binary   27    Master        Journalism                            1                                       1          1          1              NVDA
+  P02    Active Braille 40           Female       45    Master        Education                             1                                       0          1          1              JAWS
+  P03    Brailliant BI 40X           Male         35    PhD           Applied Statistics                    1                                       1          1          1              JAWS
+  P04    Orbit reader 40             Female       18    High School   Not Applicable                        1                                       0          1          1              JAWS
+  P05    PAC Mate 20                 Female       57    Bachelor      Sociology and English                 1                                       1          0          1              JAWS
+  P06    Mantis Q40                  Female       57    PhD           Computer Based Music Theory           1                                       0          1          1              NVDA
+  P08    BrailleNote Touch Plus 32   Male         22    High School   Not Applicable                        1                                       0          1          1              JAWS
+  P09    Braille EDGE 40             Non-Binary   25    Bachelor      Communication and Spanish             1                                       0          1          1              NVDA
+  P10    Focus 40                    Female       48    PhD           Anthropology                          1                                       0          1          1              JAWS
+  P11    Brailliant BI 32            Male         33    Master        Electrical and Computer Engineering   1                                       1          0          1              Orca
+  P12    HIMS QBraille XL 40         Female       26    PhD           Cognitive Neural Science              1                                       0          1          1              JAWS
+
+  : Overview of Participant Demographics, Braille Devices, Gender, Ages, Self-Reported Knowledge of Statistical Visualizations, and Screen Readers Employed in the Study.
+:::
+
+---
+
+## Participants
+
+- **Participant Demographics**:
+  - Average age: 35.73 years (Range: 18-57, SD = 13.92)
+  - Ethnicity: 8 White, 2 Asian, 1 African American
+  - Gender: 6 Females, 3 Males, 2 Non-binary
+  - Academic Backgrounds: Includes Statistics, Journalism, Special Education, Computer-Based Music Theory, Symbolic Systems, Electrical Engineering
+  - Education Level: From high school graduates to PhD holders
+
+## Participants
+
+- **Visual Impairments**:
+  - Majority blind since birth due to genetic diseases
+  - Three participants developed visual impairments after age 10 (1 due to a brain tumor, 2 from retinal detachment)
+
+- **Braille and Technology Use**:
+  - Average age to start learning Braille: 7.77 years (Range: 4-16, SD = 4.45)
+  - Braille Education: 7 in public schools, 4 in specialized institutions
+  - Preferred Screen Readers and OS: 7 use JAWS with Windows, 3 use NVDA on Windows, 1 uses Orca on Linux
+
+---
+
+## Usability Study Results
+
+- System Usability Scale (SUS)
+
+- **Average SUS Scores by Visualization Type**:
+  - **Bar Plots**: 81.36 (SD = 17.00)
+  - **Heat Maps**: 75.5 (SD = 18.36)
+  - **Box Plots**: 74 (SD = 17.37)
+  - **Scatter Plots**: 70.25 (SD = 21.49)
+
+---
+
+## Key Insights
+  
+  - Correlation between usability and the inherent complexity of each visualization
+  
+  - Variance in learnability across different visualizations
+
+---
+
+## Qualitative Results
+
+* Different strategies:
+  - Whole-to-part vs. part-to-whole
+
+    - Influences of Individual Skills and experiences
+
+## Quotes
+
+### P03, a blind statistician:
+
+> "Many thanks once again for showing me your system, it was a really great experience and I can't wait to use it in my everyday work. I really think it's a game changer for blind people in statistics and the sciences more widely."
+
+# Learnability Study Results
+
+::: {#tab:learnability}
+  Chart Type     Tasks            Median Scores             *p*     Z     IQR                     
+  -------------- ---------------- ------------------------- ------- ----- ----------------------- --
+  Bar Plot       Creation         increased from 2 to 5\*   0.016   0.0   remained at 1           
+  Heatmap        Creation         increased from 1 to 3     0.088   6.0   decreased from 2 to 1   
+  Box Plot       Creation         increased from 1 to 4\*   0.016   0.0   increased from 1 to 2   
+  Scatter Plot   Creation         increased from 2 to 4\*   0.017   0.0   remained at 1           
+  Bar Plot       Interpretation   remained at 5             0.317   0.0   remained at 0           
+  Heatmap        Interpretation   increased from 2 to 3     0.221   3.0   increased from 1 to 2   
+  Box Plot       Interpretation   increased from 3 to 5\*   0.017   0.0   increased from 0 to 1   
+  Scatter Plot   Interpretation   remained at 4             0.414   1.5   remained at 2           
+:::
+
+# Future Directions
+
+* AI/LLM integration
+
+* Personalization
+
+* Auto generation in the context of reproducible data science
+
+::: {.notes}
+
+Looking ahead, our mission continues to evolve. We're exploring novel multimodal data representations and fostering a more accessible computational literacy, ensuring that the future of data science is one where everyone, regardless of ability, has a seat at the table.
+
+:::
+
+# **Q&A**
+
+::: {.notes}
+
+Thank you for your attention. I'm now open to any questions or discussions you might have.
+
+:::

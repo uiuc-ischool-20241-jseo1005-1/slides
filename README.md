@@ -36,6 +36,8 @@
 
 - [week12-01-logistic-reg+feature_eng](week12-01-logistic-reg+feature_eng).
 
+- [week12-02-accessible-viz](week12-02-accessible-viz).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
