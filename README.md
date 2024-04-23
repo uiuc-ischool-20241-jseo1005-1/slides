@@ -40,6 +40,8 @@
 
 - [week13-02-text-analysis_tfidf+sentimentanal](week13-02-text-analysis_tfidf+sentimentanal).
 
+- [week16-01-shiny-practice](week16-01-shiny-practice).
+
 ## Dev Toolkit Notes
 
 Slides are built in using the **xaringan** package. See [here](https://github.com/yihui/xaringan) for more info on xaringan. There are two main reasons for choosing this format:
